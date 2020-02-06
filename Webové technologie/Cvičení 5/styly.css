@@ -1,0 +1,53 @@
+
+/* 9.logo zarovnané vpravo nahoře - jaké logo? */
+body {
+	background: #daeaff;
+}
+
+h1 {
+	font-size: 50px;
+	color: #060888;
+}
+h2 {
+	font-size: 30px;
+	color: #880000;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 20px;
+	color: #060888;
+	font-variant: small-caps;
+}
+
+a {
+	color: #880000;
+}
+p {
+	font-style: italic;
+}
+p a {
+	font-style: normal;
+}
+table {
+	font-size: 10px;
+}
+th {
+	color: white;
+	text-align: left;
+}
+
+#formatovaniTextu {
+	background: #5B0089;
+}
+
+#formatovaniPozadi {
+	background: #DF7500;
+}
+
+.externiOdkaz {
+	color: white;
+	background: red;
+}
+.napoveda {
+	color: #008800;
+}
