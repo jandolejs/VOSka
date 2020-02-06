@@ -8,33 +8,32 @@
 <body>
 
 <fieldset style="max-width: 350px"><legend>Kniha</legend>
-	<div id="get_form">
+	<div>
 		<form action="http://vos.maple-webdesign.cz/wt1-cviceni-4.php" method="get">
-			    <label for="form_input_nazev">Název knihy *: </label><input id="form_input_nazev" type="text" name="nazev" required>
-			<hr><label for="form_input_autor">Autor knihy : </label><input id="form_input_autor" type="text" name="autor" placeholder="jméno příjmení, tituly">
-			<hr><label for="form_input_popis">Popis knihy : </label><textarea name="popis"></textarea>
-			<hr><label for="form_input_stran">Počet stran *: </label><input id="form_input_stran" type="number" name="stran" required>
-			<hr><label for="form_input_zanr" >Žánr : </label>
-			<select name="zanr" multiple>
+			    <label for="input_nazev">Název knihy *: </label><input id="input_nazev" type="text" name="nazev" required>
+			<hr><label for="input_autor">Autor knihy : </label><input id="input_autor" type="text" name="autor" placeholder="jméno příjmení, tituly">
+			<hr><label for="input_popis">Popis knihy : </label><textarea id="input_popis" name="popis"></textarea>
+			<hr><label for="input_stran">Počet stran *: </label><input id="input_stran" type="number" name="stran" required>
+			<hr><label for="input_zanr" >Žánr : </label>
+			<select id="input_zanr" name="zanr" multiple>
 				<option value="Beletrie">Beletrie</option>
 				<option value="Cestopis">Cestopis</option>
 				<option value="SciFi">SciFi</option>
 				<option value="Fantasy">Fantasy</option>
 				<option value="Detektivka">Detektivka</option>
 			</select>
-			<hr><div id="form_input_vazba">
-				<label for="form_input_vazba" >Vazba : </label>
+			<hr><div id="input_vazba">
+				<label for="input_vazba" >Vazba : </label>
 				<br><input id="vazba_vazana" type="radio" name="vazba" value="Vázaná"><label for="vazba_vazana">Vázaná</label>
 				<br><input id="vazba_brozovana" type="radio" name="vazba" value="Brožovaná" checked><label for="vazba_brozovana">Brožovaná</label>
 			</div>
 			<hr><label for="get_form_other">Další údaje:</label>
 			<br><div id="get_form_other">
-				<input id="form_input_vyprodana" type="checkbox" name="vyprodana"><label for="form_input_vyprodana" >Kniha je vyprodaná</label>
-				<br><input id="form_input_cizojazycna" type="checkbox" name="cizojazycna"><label for="form_input_cizojazycna" >Kniha je dostupná pouze v cizím jazyce</label>
-				<br><input id="form_input_prectena" type="checkbox" name="prectena" checked><label for="form_input_prectena" >Knihu jsem přečetl</label>
+				<input id="input_vyprodana" type="checkbox" name="vyprodana"><label for="input_vyprodana" >Kniha je vyprodaná</label>
+				<br><input id="input_cizojazycna" type="checkbox" name="cizojazycna"><label for="input_cizojazycna" >Kniha je dostupná pouze v cizím jazyce</label>
+				<br><input id="input_prectena" type="checkbox" name="prectena" checked><label for="input_prectena" >Knihu jsem přečetl</label>
 			</div>
-			<hr><input type="hidden" name="form_id" value="form_book">
-			<input type="submit">
+			<hr><input type="submit">
 		</form>
 	</div>
 </fieldset>
