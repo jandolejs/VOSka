@@ -1,0 +1,9 @@
+body {
+        font-family: Arial;
+        min-width: 900px;
+}
+
+header {
+        width: 900px;
+        margin: auto;
+}

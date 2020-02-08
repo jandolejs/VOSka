@@ -1,64 +1,32 @@
 <!DOCTYPE html>
 <html>
-<style type="text/css">
-
-.container {
-	color: white;
-}
-.box {
-	background: red;
-	height: 80px; width: 130px;
-	margin: 20px;
-	padding: 10px;
-}
-
-.top_box {
-	display: inline-block;
-}
-.mid_box {
-	margin: 0px 5px 40px 5px;
-	display: inline-block;
-	text-align: center;
-	padding-top: 5px;
-	border: 0px;
-}
-.bot_box {
-	display: inline-block;
-}
-
-p {
-	text-align: center;
-}
-
-</style>
 <head>
+	<meta charset="utf-8">
 	<title>Cvičení 6</title>
+	<link rel="stylesheet" type="text/css" href="styly.css">
 </head>
 <body>
 
 	<div class="container" style="background: #ffff00;">
-		<div class="box top_box" style="display: inline-block;">vlevo</div>
-		<div class="box top_box" style="display: inline-block; background: blue;">vpravo</div><br>
 		<div class="box top_box">vlevo</div>
-		<p></p>
+		<div class="box top_box" style="float: right; background: blue;">vpravo</div><br>
+		<div class="box top_box" style="margin-top: 15px;">vlevo</div>
 	</div>
 
 	<div class="container" style="background: #df7433; text-align: center;">
-		<p style=" padding-top: 20px; ">Zarovnané na střed</p>
+		<!-- <p style=" padding-top: 20px; ">Zarovnané na střed</p> -->
 		<div class="box mid_box"><a href="https://seznam.cz">Odkaz 1</a></div>
 		<div class="box mid_box"><a href="https://seznam.cz">Odkaz 2</a></div>
 		<div class="box mid_box">Tohle není odkaz</div>
 		<div class="box mid_box"><a href="https://seznam.cz">Odkaz 3</a></div>
 		<div class="box mid_box">Tohle není odkaz</div>
 		<div class="box mid_box"><a href="https://seznam.cz">Odkaz 4</a></div>
-		<p></p>
 	</div>
 
-	<div class="container" style="background: #008800;">
+	<div class="container" style="background: #008800; display: flex; justify-content: space-between;">
 		<div class="box bot_box" style="width:20%;" >20%</div>
 		<div class="box bot_box" style="width:40%;" >40%</div>
 	</div>
-
 
 </body>
 </html>

@@ -1,7 +1,13 @@
 
-/* 9.logo zarovnané vpravo nahoře - jaké logo? */
 body {
 	background: #daeaff;
+}
+body h1 {
+	display: inline-flex;
+}
+body img {
+	display: inline-flex;
+	float: right;
 }
 
 h1 {
@@ -36,17 +42,18 @@ th {
 	text-align: left;
 }
 
-#formatovaniTextu {
+#formatovaniTextu th {
 	background: #5B0089;
 }
 
-#formatovaniPozadi {
+#formatovaniPozadi th {
 	background: #DF7500;
 }
 
 .externiOdkaz {
 	color: white;
 	background: red;
+	padding: 2px;
 }
 .napoveda {
 	color: #008800;

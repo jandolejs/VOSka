@@ -1,0 +1,21 @@
+
+.navigace li {
+	display: inline;
+	background: #dddddd;
+}
+
+.navigace {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #333
+}
+
+.navigace ul li {
+	display: none;
+}
+
+.navigace ul li ul {
+	text-align: center;
+}
