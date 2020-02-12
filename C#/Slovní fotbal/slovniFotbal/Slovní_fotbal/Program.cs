@@ -89,7 +89,7 @@ namespace slovni_fotbal
                 return false;
             }
             if (striped(input_word[0].ToString()) != striped(start_letter)) { // začíná správně ?
-                Consoler("Slovo "+input_word+" nezačíná na správné písmeno - "+start_letter, "User");
+                Consoler("Slovo "+input_word+" nezačíná na správné písmeno - "+start_letter, "User", true);
                 return false;
 
             }
