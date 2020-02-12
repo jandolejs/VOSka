@@ -11,7 +11,7 @@ namespace Škatulata
 
 		public override string ToString()
 		{
-			return X + " " + Y;
+			return string.Format("Pozice: [{0}, {1}]", X, Y);
 		}
 	}
 
@@ -21,7 +21,16 @@ namespace Škatulata
     {
         static void Main(string[] args)
         {
+
             Console.WriteLine("Hello World!");
+
+            Bod pozice_default = new Bod();
+
+            pozice_default.X = Console.WindowWidth/2;
+            pozice_default.Y = Console.WindowHeight/2;
+
+            Console.WriteLine(pozice_default.X);
+
         }
     }
 }
