@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Škatulata", "Škatulata\Škatulata.csproj", "{3A6747C2-00C6-424B-8C14-2C92E248FD50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A6747C2-00C6-424B-8C14-2C92E248FD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6747C2-00C6-424B-8C14-2C92E248FD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6747C2-00C6-424B-8C14-2C92E248FD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6747C2-00C6-424B-8C14-2C92E248FD50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
