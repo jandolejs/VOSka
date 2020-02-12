@@ -29,7 +29,10 @@ namespace Škatulata
             pozice_default.X = Console.WindowWidth/2;
             pozice_default.Y = Console.WindowHeight/2;
 
-            Console.WriteLine(pozice_default.X);
+            Console.SetCursorPosition(pozice_default.X, pozice_default.Y);
+            Console.Write("X");
+
+            Console.ReadKey();
 
         }
     }
